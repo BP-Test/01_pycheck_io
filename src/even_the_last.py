@@ -14,7 +14,7 @@
 #checkio([6]) == 36
 #checkio([]) == 0
 
-
+# My Original Answer
 def checkio(array: list) -> int:
     """
         sums even-indexes elements and multiply at the last
@@ -30,6 +30,16 @@ def checkio(array: list) -> int:
         return 0
     else:
         return array[len(array)-1] * a
+
+# Soemeone else's answer 1
+checkio=lambda x: sum(x[::2])*x[-1] if x else 0
+# Soemeone else's answer 2
+def checkio(array):
+    """
+        sums even-indexes elements and multiply at the last
+    """
+    if len(array) == 0: return 0
+    return sum(array[0::2]) * array[-1]
 
 #These "asserts" using only for self-checking and not necessary for auto-testing
 if __name__ == '__main__':
