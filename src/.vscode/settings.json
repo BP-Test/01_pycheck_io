@@ -1,0 +1,8 @@
+{
+    "terminal.integrated.defaultProfile.windows": "Command Prompt",
+    "terminal.integrated.automationShell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
+    "terminal.integrated.defaultProfile.linux": "C:\\WINDOWS\\System32\\cmd.exe",
+    "terminal.integrated.automationShell.linux": "C:\\WINDOWS\\System32\\cmd.exe",
+    "terminal.integrated.automationShell.osx": "C:\\WINDOWS\\System32\\cmd.exe",
+    "terminal.integrated.defaultProfile.osx": "C:\\WINDOWS\\System32\\cmd.exe"
+}
